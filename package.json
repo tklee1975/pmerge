@@ -1,0 +1,27 @@
+{
+  "name": "image2pdf",
+  "version": "1.0.0",
+  "description": "Convert Images to a single PDF",
+  "bin": {
+    "pmerge": "./bin/pmerge.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mocha": "mocha"
+  },
+  "keywords": [
+    "Images",
+    "to",
+    "single",
+    "mulitple-page",
+    "PDF"
+  ],
+  "author": "Kencoder",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "mocha": "^10.2.0",
+    "pdf-lib": "^1.17.1",
+    "rewire": "^6.0.0"
+  }
+}
